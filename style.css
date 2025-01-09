@@ -1,0 +1,14 @@
+.homevid {
+    width: 100%;
+    position: relative;
+    top: 0;
+    z-index: -1;
+};
+
+.scroll {
+    width: 100vh;
+    height: 10000em;
+    background-color: grey;
+    position: sticky;
+    top: 0;
+};
