@@ -1,62 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Favicon/download.jpg" type="image/jpg">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Homepage.css">
     <title>SpiderMan</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-
 <body>
     <header>
-        <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-            <div class="container-fluid">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="/home/index.html">Home</a>
-                    <a class="nav-link" aria-current="page" href="/about/About.html">about</a>
-                    <a class="nav-link" href="/contact/Contact.html">Contact</a>
-                    <a class="nav-link" href="/faq/faq.html">FAQ</a>
-                    <a class="nav-link" href="/workteam/Workteam.html">Workteam</a>
-                </div>
-            </div>
-        </nav>
+        <h1>Spider Man No Way Home</h1>
+    </header>
     <header>
-
+        <h2>
+            <div class="cta-button">
+             <button><a href="About.html" class="cta-button">About</a></button>
+             <button><a href="Contact.html" class="cta-button"> Contact Us</a></button>
+             <button><a href="Workteam.html" class="cta-button">Workteam</a></button>
+        </div>
+        </h2>
+    </header>
+    
     <main>
         <div class="trailer 1">
             <a href="https://www.youtube.com/watch?v=2T26maFicuw" target="_blank">
-                <img src="https://images7.alphacoders.com/122/thumb-1920-1223625.jpg"
-                    alt="Spiderman eerste trailer">
+                <img src="https://images7.alphacoders.com/122/thumb-1920-1223625.jpg" alt="Spiderman eerste trailer">
             </a>
-        </div>
-        <div class="trailer 2">
-            <a href="https://www.youtube.com/watch?v=iaD2f2O9wGk&pp=ygUec3BpZGVyIG1hbiBubyB3YXkgaG9tZSB0cmFpbGVy"
-                target="_blank">
-                <img src="https://i.pinimg.com/originals/67/53/50/6753507d01735300e19fe79f0ec67265.png"
-                    alt="SpiderMan Derde Trailer">
-            </a>
-        </div>
-        <div class="trailer 3">
-            <a href="https://www.youtube.com/watch?v=JfVOs4VSpmA&pp=ygUec3BpZGVyIG1hbiBubyB3YXkgaG9tZSB0cmFpbGVy"
-                target="_blank">
-                <img src="https://wallpapersok.com/images/hd/multiverse-spider-man-no-way-home-artwork-u1nvqt1zhrzpvx3y.jpg"
-                    alt="SpiderMan Tweede Trailer">
-            </a>
-        </div>
-    </main>
+        <p>Spider-Man: No Way Home is een spectaculaire film waarin Peter Parker geconfronteerd wordt met de gevolgen van zijn geheime identiteit die openbaar is gemaakt. Het multiversum speelt een grote rol, en je zult bekende gezichten tegenkomen uit eerdere Spider-Man-films</p>
+        <label for="movie-rating">Rate this movie:</label>
+        <select id="movie-rating" name="movie-rating">
+            <option value="1">1 Star</option>
+            <option value="2">2 Stars</option>
+            <option value="3">3 Stars</option>
+            <option value="4">4 Stars</option>
+            <option value="5">5 Stars</option>
+        </select>
+        <button type="button">Submit Rating</button>
 
+    </main>
     <footer>
         <p>&copy; 2024 SpiderMan </p>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous">
-    </script>
 </body>
-
 </html>
