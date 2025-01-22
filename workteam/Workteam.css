@@ -1,9 +1,8 @@
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #fff;
-    background-color: #121212; 
+    background-color: #121212;
     margin: 0;
     padding: 0;
 }
@@ -27,7 +26,7 @@ h1 img {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: linear-gradient(145deg, #990000, #660000); 
+    background: linear-gradient(145deg, #990000, #660000);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     font-size: 18px;
@@ -50,7 +49,7 @@ h1 img {
 }
 
 .Workteam strong {
-    color: #ffcc00; 
+    color: #ffcc00;
 }
 
 

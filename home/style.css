@@ -29,7 +29,8 @@ body {
 }
 
 .cta-button button a {
-    text-decoration: none; /* Geen onderlijning */
+    text-decoration: none;
+    /* Geen onderlijning */
     color: white;
     font-size: 1rem;
 }

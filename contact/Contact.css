@@ -1,28 +1,24 @@
-
 body {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; 
-    color: #333; 
+    background-color: #f4f4f4;
+    color: #333;
 }
-
-
 
 main {
     margin-top: 20px;
 }
 
-
 .card {
-    border: none; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    border-radius: 8px; 
-    transition: transform 0.2s ease-in-out; 
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
     background: white;
 }
 
 .card:hover {
-    transform: scale(1.02); 
+    transform: scale(1.02);
 }
 
 .card-title {
@@ -43,4 +39,3 @@ main {
         margin-bottom: 20px;
     }
 }
-
