@@ -12,51 +12,54 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-            <div class="container-fluid">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="/home/index.html">Home</a>
-                    <a class="nav-link" aria-current="page" href="/about/About.html">about</a>
-                    <a class="nav-link" href="/contact/Contact.html">Contact</a>
-                    <a class="nav-link" href="/faq/faq.html">FAQ</a>
-                    <a class="nav-link" href="/workteam/Workteam.html">Workteam</a>
-                </div>
-            </div>
-        </nav>
-    <header>
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/home/index.html">FilmProject</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/home/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about/About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/contact/Contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/faq/faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/workteam/Workteam.html">Workteam</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
     <main>
         <div class="trailer 1">
             <a href="https://www.youtube.com/watch?v=2T26maFicuw" target="_blank">
-                <img src="https://images7.alphacoders.com/122/thumb-1920-1223625.jpg"
-                    alt="Spiderman eerste trailer">
+                <img src="https://images7.alphacoders.com/122/thumb-1920-1223625.jpg" alt="Spiderman eerste trailer">
             </a>
-        </div>
-        <div class="trailer 2">
-            <a href="https://www.youtube.com/watch?v=iaD2f2O9wGk&pp=ygUec3BpZGVyIG1hbiBubyB3YXkgaG9tZSB0cmFpbGVy"
-                target="_blank">
-                <img src="https://i.pinimg.com/originals/67/53/50/6753507d01735300e19fe79f0ec67265.png"
-                    alt="SpiderMan Derde Trailer">
-            </a>
-        </div>
-        <div class="trailer 3">
-            <a href="https://www.youtube.com/watch?v=JfVOs4VSpmA&pp=ygUec3BpZGVyIG1hbiBubyB3YXkgaG9tZSB0cmFpbGVy"
-                target="_blank">
-                <img src="https://wallpapersok.com/images/hd/multiverse-spider-man-no-way-home-artwork-u1nvqt1zhrzpvx3y.jpg"
-                    alt="SpiderMan Tweede Trailer">
-            </a>
-        </div>
-    </main>
+        <p>Spider-Man: No Way Home is een spectaculaire film waarin Peter Parker geconfronteerd wordt met de gevolgen van zijn geheime identiteit die openbaar is gemaakt. Het multiversum speelt een grote rol, en je zult bekende gezichten tegenkomen uit eerdere Spider-Man-films</p>
+        <label for="movie-rating">Rate this movie:</label>
+        <select id="movie-rating" name="movie-rating">
+            <option value="1">1 Star</option>
+            <option value="2">2 Stars</option>
+            <option value="3">3 Stars</option>
+            <option value="4">4 Stars</option>
+            <option value="5">5 Stars</option>
+        </select>
+        <button type="button">Submit Rating</button>
 
+    </main>
     <footer>
         <p>&copy; 2024 SpiderMan </p>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous">
-    </script>
 </body>
-
 </html>
