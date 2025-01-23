@@ -6,8 +6,6 @@ body {
 }
 
 
-<<<<<<< HEAD
-=======
 #achtergrondvid {
     position: fixed;
     top: 0;
@@ -19,7 +17,6 @@ body {
 }
 
 /* CTA-button styling */
->>>>>>> ce7dc5a88fc88db41c7ad76bdd35b5234c5384be
 .cta-button {
     display: flex;
     justify-content: center;
