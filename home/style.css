@@ -7,10 +7,15 @@ body {
 }
 
 
-
-
-/* Header styling */
-
+#achtergrondvid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    z-index: -1;
+}
 
 /* CTA-button styling */
 .cta-button {
