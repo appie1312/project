@@ -1,13 +1,14 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #fff;
-    background-color: #121212;
+    color: white;
     margin: 0;
     padding: 0;
 }
 
-
+.achtergrond {
+    background-color: grey;
+}
 
 
 h1 {
@@ -19,14 +20,15 @@ h1 img {
     max-width: 300px;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(255, 0, 0, 0.6);
+        text-align: center;
+    margin: 20px 0;
 }
 
-
 .Workteam {
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 1500px;
+    margin: 40px auto;
     padding: 20px;
-    background: linear-gradient(145deg, #990000, #660000);
+    background: linear-gradient(145deg, black , #660000);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     font-size: 18px;
