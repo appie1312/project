@@ -6,6 +6,20 @@ body {
 }
 
 
+<<<<<<< HEAD
+=======
+#achtergrondvid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    z-index: -1;
+}
+
+/* CTA-button styling */
+>>>>>>> ce7dc5a88fc88db41c7ad76bdd35b5234c5384be
 .cta-button {
     display: flex;
     justify-content: center;
