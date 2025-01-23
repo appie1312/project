@@ -16,7 +16,6 @@ body {
     z-index: -1;
 }
 
-/* CTA-button styling */
 .cta-button {
     display: flex;
     justify-content: center;
