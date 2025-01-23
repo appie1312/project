@@ -1,9 +1,11 @@
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
+
 
 #achtergrondvid {
     position: fixed;
@@ -13,6 +15,34 @@ body {
     height: 100%;
     background-color: #000000;
     z-index: -1;
+}
+
+
+.trailer1 {
+    max-width: 1500px;
+    margin: 40px auto;
+    padding-top: 1px;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+.Text {
+    max-width: 1500px;
+    margin: 40px auto;
+    background: linear-gradient(145deg, black, #660000);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    line-height: 1.8;
+    color: #fff;
+}
+
+
+#success-message {
+    display: none; 
+    color: rgb(6, 176, 6);
+    margin-top: 10px;
 }
 
 
@@ -59,6 +89,7 @@ main p {
     font-size: 1.1rem;
 }
 
+
 button {
     background-color: red;
     color: white;
@@ -73,6 +104,7 @@ button:hover {
     background-color: darkred;
 }
 
+
 textarea {
     width: 100%;
     padding: 10px;
@@ -80,6 +112,7 @@ textarea {
     border-radius: 5px;
     margin-top: 10px;
 }
+
 
 #comments-section {
     margin-top: 30px;
@@ -96,6 +129,7 @@ textarea {
     border: 1px solid #ddd;
     border-radius: 8px;
 }
+
 
 footer {
     width: 100%;
