@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerij</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+
+    <h1>Galerij</h1>
+    <h2>Spider man no way home</h2>
+
+    <video id="backgroundVideo" autoplay muted loop>
+        <source src="assets/background-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+
+    <div class="full-img" id="fullimgbox">
+        <img src="assets/spider-a.jpg" id="fullimage">
+        <a href="#" id="downloadBtn" download>
+            <button>Download Image</button>
+        </a>
+        <span onclick="closeFullImg()">X</span>
+    </div>
+    
+
+    <div class="full-video" id="fullvideobox">
+        <video id="fullvideo" controls>
+            <source id="videoSource" src="assets/SPIDER-MAN_ NO WAY HOME - Official Trailer (HD).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <span onclick="closeFullVideo()">X</span>
+    </div>
+    
+    
+    <p>Foto's</p>
+    <div class="img-gallery">
+        <img src="assets/spider-a.jpg" onclick="OpenFullImg(this)">
+        <img src="assets/spider-b.jpg" onclick="OpenFullImg(this)">
+        <img src="assets/spider-c.png" onclick="OpenFullImg(this)">
+        <img src="assets/spider-d.jpg" onclick="OpenFullImg(this)">
+        <img src="assets/spider-e.jpg" onclick="OpenFullImg(this)">
+        <img src="assets/spider-f.png" onclick="OpenFullImg(this)">
+        <img src="assets/spider-g.png" onclick="OpenFullImg(this)">
+        <img src="assets/spider-h.jpg" onclick="OpenFullImg(this)">
+        <img src="assets/spider-i.png" onclick="OpenFullImg(this)">
+        <img src="assets/spider-j.png" onclick="OpenFullImg(this)">
+    </div>
+    
+
+    <p>Video's</p>
+    <div class="video-gallery">
+        <div class="video-thumbnail" onclick="OpenFullVideo('assets/SPIDER-MAN_ NO WAY HOME - Official Trailer (HD).mp4')">
+            <img src="assets/offical.jpg" alt="Trailer 1">
+        </div>
+        <div class="video-thumbnail" onclick="OpenFullVideo('assets/SPIDER-MAN_ NO WAY HOME - Official Teaser Trailer (HD).mp4')">
+            <img src="assets/teaser.jpg" alt="Trailer 2">
+        </div>
+    </div>
+
+    <script>
+
+        var fullimgbox = document.getElementById("fullimgbox");
+        var fullimage = document.getElementById("fullimage");
+        var downloadBtn = document.getElementById("downloadBtn");
+
+        var fullvideobox = document.getElementById("fullvideobox");
+        var fullvideo = document.getElementById("fullvideo");
+        var videoSource = document.getElementById("videoSource");
+        var backgroundVideo = document.getElementById("backgroundVideo");
+
+    
+        function OpenFullImg(imgElement) {
+            fullimgbox.style.display = "flex";
+            fullimage.src = imgElement.src;
+            downloadBtn.href = imgElement.src;
+        }
+
+        function closeFullImg() {
+            fullimgbox.style.display = "none";
+        }
+
+    
+        function OpenFullVideo(videoSrc) {
+  
+            backgroundVideo.pause();
+            backgroundVideo.style.display = "none";
+            
+            fullvideobox.style.display = "flex";
+            videoSource.src = videoSrc;
+            fullvideo.load();
+            fullvideo.play();
+        }
+
+        function closeFullVideo() {
+            fullvideobox.style.display = "none";
+            fullvideo.pause();
+            fullvideo.currentTime = 0;
+
+            backgroundVideo.play();
+            backgroundVideo.style.display = "block";
+        }
+    </script>
+</body>
+</html>
