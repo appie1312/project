@@ -1,10 +1,4 @@
 function submitRating() {
-       
-    const rating = document.getElementById('movie-rating').value;
+alert("Dankjewel voor je rating!!")
 
-    const successMessage = document.getElementById('success-message');
-    successMessage.style.display = 'block'; 
-
- 
-    document.getElementById('movie-rating').selectedIndex = 0; 
 }
