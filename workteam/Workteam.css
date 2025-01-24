@@ -16,7 +16,7 @@ h1 img {
     max-width: 300px;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(255, 0, 0, 0.6);
-        text-align: center;
+    text-align: center;
     margin: 20px 0;
 }
 
@@ -24,7 +24,7 @@ h1 img {
     max-width: 1500px;
     margin: 40px auto;
     padding: 20px;
-    background: linear-gradient(145deg, black , #660000);
+    background: linear-gradient(145deg, black, #660000);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     font-size: 18px;
